@@ -1,1 +1,0 @@
-"use strict"; if ( window.matchMedia("(pointer: coarse)").matches ) {let v = window.innerHeight * 0.01; document.documentElement.style.setProperty('--vh', `${v}px`); window.matchMedia('(orientation: portrait)').addListener(() => setTimeout(() => location.reload(), 100));};
